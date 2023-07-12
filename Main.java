@@ -17,7 +17,7 @@ public class Main {
 
         peminjam1.doLogin();
         peminjam2.doLogin();
-        //peminjam1.doLogout();
+    
 
         try{
             Peminjaman peminjaman1 = new Peminjaman(peminjam1, petugas1, buku2);
@@ -44,7 +44,7 @@ public class Main {
 
             peminjam2.addAntiDenda();
 
-            System.out.println("tAGIHAN denda: " + denda2.getTagihan());
+            System.out.println("TAGIHAN denda: " + denda2.getTagihan());
 
             System.out.println("### Denda ditambahkan ! ###");
 
