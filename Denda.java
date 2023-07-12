@@ -3,6 +3,7 @@ public class Denda {
     private Peminjaman peminjaman;
     private int hariTerlambat;
     private int tarifDenda = 10000;
+    private int hapus;
 
     public Denda ( Peminjaman peminjaman, int hariTerlambat){
         this.peminjaman = peminjaman;
@@ -19,5 +20,9 @@ public class Denda {
 
     public int gethariTerlambat(){
         return hariTerlambat;
+    }
+
+    public int getHapus(){
+        return hapus;
     }
 }
